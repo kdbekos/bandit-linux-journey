@@ -22,4 +22,4 @@ Here is what we get!
 <img width="1918" height="878" alt="kali-linux-2025 4-vmware-amd64-2026-03-04-10-38-35" src="https://github.com/user-attachments/assets/c745adc3-1ba2-46ef-978f-344070073764" />
 This creates a file in the tmp folder and gives read permission to everyone. Then it copys the bandit22 password to that new file.
 
-So to get the that password from the new file we just have to read the new file with the cat command.
+So to get the password from the new file we just have to read the new file with the cat command.
