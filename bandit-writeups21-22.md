@@ -13,7 +13,7 @@ cat cronjob_bandti22 to get info about what this cronjob does.
 
 <img width="1918" height="878" alt="kali-linux-2025 4-vmware-amd64-2026-03-04-10-31-13" src="https://github.com/user-attachments/assets/a2956a6e-4fcc-4ab3-b76e-4524632c0621" />
 
-This cronjob runs the /usr/bin/cronjob_bandit22.sh file as bandit22 user. The five start mean that it runs every minute, every day. Let's take a closer look to what is executed in this file now.
+This cronjob runs the /usr/bin/cronjob_bandit22.sh file as bandit22 user. The five stars mean that it runs every minute, every day. Let's take a closer look to what is executed in this file now.
 To do that i use the command:
 cat /usr/bin/cronjob_bandit22.sh
 
