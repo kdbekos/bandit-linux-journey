@@ -9,7 +9,7 @@ I tried to connect with SSH to the bandit18 user but i noticed that the moment i
 
 Then i tried to see if commands worked after the ssh command like:
 'ssh bandit18@bandit.overthewire.labs.org -p 2220 ls'
-and i after i put the level's password it showed me the readme file.
+and after i put the level's password it showed me the readme file.
 So i did the same but now i use cat readme and i got the password for the next level.
 
 Key concept learned:
