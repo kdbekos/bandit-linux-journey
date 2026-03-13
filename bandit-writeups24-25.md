@@ -14,7 +14,7 @@ nc localhost 30002
 
 I get a response telling me to input the 24 level password and the 4 digit password seperated by space.
 
-I need to find a way to automate this, so im thinking of using a script to iterate from 0 to 10000 and test it with the daemon to see if its correct. 
+I need to find a way to automate this, so im thinking of using a script to iterate from 0000 to 10000(cause it is a 4 digit pin code) and test it with the daemon to see if its correct. 
 So the script is like this :
 ![kali-linux-2025.4-vmware-amd64-2026-03-13-11-27-14.png
 ](kali-linux-2025.4-vmware-amd64-2026-03-13-11-27-14.png
