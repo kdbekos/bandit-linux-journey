@@ -16,7 +16,9 @@ I get a response telling me to input the 24 level password and the 4 digit passw
 
 I need to find a way to automate this, so im thinking of using a script to iterate from 0 to 10000 and test it with the daemon to see if its correct. 
 So the script is like this :
-![kali-linux-2025.4-vmware-amd64](kali-linux-2025.4-vmware-amd64.png)
+![kali-linux-2025.4-vmware-amd64-2026-03-13-11-27-14.png
+](kali-linux-2025.4-vmware-amd64-2026-03-13-11-27-14.png
+)
 
 It eters the 24 level password with the carent var value from 0 to 10000 and saves the possible result in the p.txt file
 then its using every entry of the file while connecting to the daemon and saves every result on the result.txt file.
