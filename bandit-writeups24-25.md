@@ -21,11 +21,11 @@ So the script is like this :
 )
 
 It enters the 24 level password with the current var value from 0 to 10000 and saves the possible result in the p.txt file
-then its using every entry of the file while connecting to the daemon and saves every result on the result.txt file.
-In the end we have every result in this file and 1 of them is gonna be correct and will have the 25 password.
+then it's piping a singe stream of 10000 combinations into one connection to the daemon and saves every result on the result.txt file.
+In the end we have every result in this file and 1 of them is gonna be correct and will have the 25 level password.
 
 Finally to get the result we just use the command:
 grep -v "Wrong" result.txt
 
-Which filters the the text from the word Wrong and we get the password for the next level  
+Which filters the text from the word Wrong and we get the password for the next level  
 
