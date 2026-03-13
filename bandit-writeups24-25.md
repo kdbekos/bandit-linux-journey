@@ -1,8 +1,10 @@
 Bandit level 24->25
 
+Objective:
+
 A daemon is listening on port 30002 and it will give me the password for 25 level if i give it the password of 24 + the correct 4 digit pincode.
 
-Enumeration
+Enumeration:
 
 The combinations of the 4 digit pin code are 10000 in total so i need to brute force my way to find the correct one as it's not that hard for the computer to handle this much calcualtions.
 
